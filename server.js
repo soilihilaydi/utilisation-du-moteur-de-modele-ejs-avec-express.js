@@ -1,11 +1,11 @@
-const express = require('express');
+const express = require("express");
 
 const port = 3000;
 
 app = express();
 
 
-app.set("views engine", "ejs");
+app.set("view engine", "ejs");
 
 app.get("/", function(req, res) {
     res.render("index",);
