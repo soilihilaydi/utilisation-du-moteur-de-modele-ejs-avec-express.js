@@ -6,6 +6,14 @@
  </div>
  <h2>Variable</h2>
    <p><%= subheading %></p>
+   <ul>
+    <% characters.forEach(function(character) { %>
+      <li class="ui segment">
+        <strong><%= character.name %></strong>
+        est un <%= character.designation %> a Lamastre.
+      </li>
+    <% }); %>
+  </ul>
 </main>
 
 <footer >
