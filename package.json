@@ -1,0 +1,27 @@
+{
+  "name": "utilisation-du-moteur-de-modele-ejs-avec-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soilihilaydi/utilisation-du-moteur-de-modele-ejs-avec-express.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soilihilaydi/utilisation-du-moteur-de-modele-ejs-avec-express.js/issues"
+  },
+  "homepage": "https://github.com/soilihilaydi/utilisation-du-moteur-de-modele-ejs-avec-express.js#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
